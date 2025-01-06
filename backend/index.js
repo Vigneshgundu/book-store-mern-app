@@ -1,7 +1,6 @@
 require('dotenv').config()
 const express = require('express')
 const app = express()
-//password:gTuGIww1qX178jM6, username:vigneshgundu6
 const mongoose=require('mongoose');
 const port = process.env.PORT || 5000;
 
